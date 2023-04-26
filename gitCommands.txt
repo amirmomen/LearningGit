@@ -1,0 +1,22 @@
+git
+git init			//Create a new dipository and initialize
+git status			//Give us status of files
+git add -A			//Add all changed files to stage state to become ready to be commited
+git add "name*"
+git add "*.suffix"
+git add <file>			//Add a specific file to stage
+git reset <file> 		//Throw away a file from stage
+
+git commit -m 'comment'		//Commit chanes with a message
+git log				//shows all logs on master
+git diff Head			//Show us differeces of changed files with a last commit
+git diff --staged		//Show us differeces of staged files and head
+
+git checkout -- <file>		//Discard changes in files and replace the file with last committed file
+git branch			//List all branches and shows active branch
+git branch newBranchName	//Add a branch
+git checkout branchName		//switch to branchName
+git merge branchName		//merge branchname with active branch
+
+git rm filename			//delete a file from git and also from file system
+git branch -d branchName	//Delete a branch
