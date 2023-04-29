@@ -1,4 +1,9 @@
 git
+
+git config --global user.name "Amir Momen"
+git config --global user.email "amir.momen69@gmail.com"
+
+
 git init			//Create a new dipository and initialize
 git status			//Give us status of files
 git add -A			//Add all changed files to stage state to become ready to be commited
