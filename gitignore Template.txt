@@ -1,0 +1,3 @@
+.FileName	//ignore files named .FileNmae
+folderName/	//will ignore an entire directory
+*.log		//will ignore any files with the .log extention
